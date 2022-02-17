@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Predict Pneumonia Disease Class with Convolutional Neural Networks">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Python, Machine Learning, Web Developlent, Convolutional Neural Networks, X-ray">
+    <meta name="author" content="Dogu Ilmak">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"/>
+    <title>Pneumonia Disease</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header of the webpage -->
+        <h1 style="padding-top: 30px;"><b>Pneumonia Disease</b><br>
+            <p style="font-size: 20px;">and Diagnose with Convolutional Neural Networks</p>
+        </h1>
+
+        <!-- Greeting picture -->
+        <div class="greet gray1">
+            <img src="{{ url_for('static', filename='img/x-ray.jpg') }}" style="width: 100%; height: 100%;" alt="">
+        </div>
+        <div class="clear"></div>
+
+
+        <!-- Building body of the webpage -->
+        <div id="home-tiles">
+
+            <hr>
+
+            <!-- Definition of the pneumonia -->
+            <h2>Definition of the Pneumonia</h2>
+            <div class="section">
+                <div class="section-upper gray2">
+                    <img src="../static/img/normal.jpeg" style="width: 100%; height: 100%;" alt="">
+                    <p style="text-align: center; margin-top: 3px;">Fig 1 - Healthy Lung on X-ray</p>
+                </div>
+            </div>
+            <p>
+                Pneumonia is swelling (inflammation) of the tissue in one or both lungs. It's usually caused by a
+                bacterial infection. It can also be caused by a virus, such as coronavirus (COVID-19). Pneumonia is
+                usually caused by infection with viruses or bacteria, and less commonly by other microorganisms.
+                Identifying the responsible pathogen can be difficult. Diagnosis is often based on symptoms and
+                physical
+                examination. Chest X-rays, blood tests, and culture of the sputum may help confirm the diagnosis.
+            </p>
+
+
+            <!-- Stylish div with gray background  -->
+            <div class="dark-colored-div" style="display: table;">
+                <p class="center" style="vertical-align: middle; display: table-cell;">The estimated worldwide incidence
+                    of community-acquired pneumonia varies between 1.5 to 14 cases per 1000 person-years, and this is
+                    affected by geography, season, and population characteristics. In the United States, the annual
+                    incidence is 24.8 cases per 10,000 adults with higher rates as age increases.
+                    <br>
+                    <br>
+                    <small style="vertical-align: bottom;">-National Center for Biotechnology Information</small>
+                </p>
+            </div>
+
+
+            <!-- Diagnosing pneumonia -->
+            <h2>Diagnosing Pneumonia</h2>
+            <div class="section">
+                <div class="section-upper gray2">
+                    <img src="../static/img/pneumonia.jpeg" style="width: 100%; height: 100%;" alt="">
+                    <p style="text-align: center; margin-top: 3px;">Fig 2 - Pneumonia Disease on X-ray</p>
+                </div>
+            </div>
+            <p>
+                A doctor may be able to diagnose pneumonia by asking about your symptoms and examining your chest.
+                Further tests may be needed in some cases.
+
+                Pneumonia can be difficult to diagnose because it shares many symptoms with other conditions, such
+                as
+                the common cold, bronchitis and asthma. To help make a diagnosis, a doctor may ask you several question
+                such as; whether you feel breathless or you're breathing faster than usual or how long you have had your
+                cough.
+            </p>
+
+
+            <!-- Stylish div with light background  -->
+            <div class="light-colored-div" style="display: table;">
+                <p class="center" style="vertical-align: middle; display: table-cell;">Pneumonia can affect people of
+                    any age, but it's more common, and can be more serious, in certain
+                    groups of people, such as the very young or the elderly. People in these groups are more likely to
+                    need
+                    hospital treatment if they develop pneumonia.
+                    <br>
+                    <br>
+                    <small style="vertical-align: bottom;">-National Health Service</small>
+                </p>
+            </div>
+
+
+            <!-- Section with photo and short info about pneumonia types -->
+            <div style="margin-bottom: 410px; margin-top: 40px;">
+                <h2>Common Pneumonia Types</h2>
+                <div class="section">
+                    <h5>Viral Pneumonia</h5>
+                    <div class="section-upper gray2">
+                        <img src="https://www.news-medical.net/image.axd?picture=2020%2F6%2Fshutterstock_786937069.jpg"
+                            style="width: 100%; height: 100%;" alt="">
+                    </div>
+                    <p class="center">Caused by a virus, such as coronavirus (COVID-19).</p>
+                </div>
+
+                <div class="section">
+                    <h5>Aspiration Pneumonia</h5>
+                    <div class="section-upper gray2">
+                        <img src="https://prod-images-static.radiopaedia.org/images/43699885/535686a67c2d7067d080baab6b6b43_jumbo.jpeg"
+                            style="width: 100%; height: 100%;" alt="">
+                    </div>
+                    <p class="center">Caused by breathing in vomit, a foreign object or a
+                        harmful substance, such as chemical.</p>
+                </div>
+
+                <div class="section">
+                    <h5>Fungal Pneumonia</h5>
+                    <div class="section-upper gray2">
+                        <img src="https://healthjade.net/wp-content/uploads/2019/06/fungal-pneumonia.jpg"
+                            style="width: 100%; height: 100%;" alt="">
+                    </div>
+                    <p class="center">Rare in the UK and more likely to affect people with a weakened immune
+                        system.</p>
+                </div>
+            </div>
+
+
+            <!-- Stylish div with gray background  -->
+            <div class="dark-colored-div" style="display: table;">
+                <p class="center" style="vertical-align: middle; display: table-cell;">In 2018, the death rate from
+                    influenza and pneumonia among persons aged equal to or more than 65 years was 93.2 deaths per
+                    100,000 population. Death
+                    rates increased with age from 31.7 deaths per 100,000 population among adults aged 65–74 years, to
+                    94.2 among adults aged 75–84 years, to 377.6 among those aged equal to or more than 85 years.
+                    <br>
+                    <br>
+                    <small style="vertical-align: bottom;">-Centers for Disease Control and Prevention</small>
+                </p>
+            </div>
+
+            <!-- Prediction section -->
+            <div style="padding-top: 20px;">
+                <h2>Make Prediction</h2>
+                <br>
+
+                <p class="center">The convolutional neural network model was builded to predict pneumonia class. This
+                    model and saved as model.h5 and trained by images downloaded from Kaggle. You can test whether you
+                    are suffering from the disease by uploading an X-ray image. For this, you can click on the
+                    <strong>Prediction Site</strong> button and go to the relevant page.
+                </p>
+
+                <br>
+
+                <div style="text-align: center;">
+                    <a href="predict.html" class="btn btn-dark btn-lg" role="button">Prediction Site</a>
+                </div>
+            </div>
+
+            <!-- Stylish div with light background  -->
+            <div class="light-colored-div" style="display: table;">
+                <p class="center" style="vertical-align: middle; display: table-cell;">To manage symptoms; drink warm
+                    beverages, take steamy
+                    baths and use a humidifier to help open your airways and ease your breathing. Contact your doctor
+                    right away if your breathing gets worse instead of better over time. Stay away from smoke to let
+                    your lungs heal.
+                    <br>
+                    <br>
+                    <small style="vertical-align: bottom;">-American Lung Association</small>
+                </p>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+
+                <h3>Contact Me</h3>
+
+                <!-- Map -->
+                <div class="section">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101408.21722940235!2d-122.15130702796334!3d37.41331444145766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sMountain%20View%2C%20CA%2C%20USA!5e0!3m2!1sen!2str!4v1642712570022!5m2!1sen!2str"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <!-- Social media -->
+                <div class="section" style="position : relative;">
+                    <p style="text-align: center; margin-left: 25px;">
+                        <a href="https://twitter.com/Doguilmak" class="fa fa-twitter" target="_blank"></a>
+                        <a href="https://github.com/doguilmak" class="fa fa-github" target="_blank"></a>
+                        <a href="mailto:doguilmak@gmail.com" class="fa fa-envelope" target="_blank"></a>
+                    </p>
+                </div>
+
+                <!-- Detail about model -->
+                <div class="section">
+                    <p class="center">The estimation you have done in this project consists of estimating the model
+                        trained with machine learning. The results may not be completely accurate.</p>
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+        <div class="space"></div>
+
+    </div>
+
+</body>
+
+</html>
