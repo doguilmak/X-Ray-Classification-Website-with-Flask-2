@@ -51,6 +51,10 @@ accuracy:  **0.82666665**
  - https://www.ncbi.nlm.nih.gov/books/NBK430749/
  - https://www.cdc.gov/mmwr/volumes/69/wr/mm6940a5.htm#:~:text=In%202018%2C%20the%20death%20rate,those%20aged%20%E2%89%A585%20years.
  - https://www.lung.org/lung-health-diseases/lung-disease-lookup/pneumonia/treatment-and-recovery
+ - https://www.news-medical.net/image.axd?picture=2020%2F6%2Fshutterstock_786937069.jpg
+ - https://prod-images-static.radiopaedia.org/images/43699885/535686a67c2d7067d080baab6b6b43_jumbo.jpeg
+ - https://healthjade.net/wp-content/uploads/2019/06/fungal-pneumonia.jpg
+
 
 ## Contact Me
 
