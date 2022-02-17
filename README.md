@@ -21,8 +21,6 @@ You can see the preview of the **predict.html** file as 2392x2020 pixel on the b
 
 ## Dataset
 
-Dataset has 5216 images belonging to 2 classes in total. **test** folder has 624 X-Ray images, **train** folder has 5216 X-Ray images and **val** folder has 18 X-Ray images.
-
 ### Content
 The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 
