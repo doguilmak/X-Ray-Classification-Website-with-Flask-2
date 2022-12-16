@@ -85,7 +85,7 @@ You can see the preview of the <b>predict.html</b> file as <i>2392x2020</i> pixe
 
 <br>
 
-<h2> Sources</h>
+<h2>Sources</h2>
 
 <ul>
 	<li><a  href="https://www.ncbi.nlm.nih.gov/books/NBK430749/">NCBI</a></li>
