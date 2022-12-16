@@ -87,14 +87,14 @@ You can see the preview of the <b>predict.html</b> file as <i>2392x2020</i> pixe
 
 <h2> Sources</h>
 
-<ol>
+<ul>
 	<li><a  href="https://www.ncbi.nlm.nih.gov/books/NBK430749/">NCBI</a></li>
 	<li><a  href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6940a5.htm#:~:text=In%202018%2C%20the%20death%20rate,those%20aged%20%E2%89%A585%20years.">CDC</a></li>
 	<li><a  href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/pneumonia/treatment-and-recovery">lung.org</a></li>
 	<li><a  href="https://www.news-medical.net/image.axd?picture=2020%2F6%2Fshutterstock_786937069.jpg">News Medical </a></li>
 	<li><a  href="https://prod-images-static.radiopaedia.org/images/43699885/535686a67c2d7067d080baab6b6b43_jumbo.jpeg">radiopaedia.org</a></li>
 	<li><a  href="https://healthjade.net/wp-content/uploads/2019/06/fungal-pneumonia.jpg">healthjade.net</a></li>
-</ol>
+</ul>
 
 <br>
 
