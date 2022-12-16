@@ -83,7 +83,7 @@ You can see the preview of the <b>predict.html</b> file as <i>2392x2020</i> pixe
     <img height="500" src="screenshoots/predict.html.png"> 
 </p>
 
-
+<br>
 
 <h2> Sources</h>
 
