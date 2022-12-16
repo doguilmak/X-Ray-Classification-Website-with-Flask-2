@@ -13,9 +13,7 @@
 
 <p>There are lung X-ray images of people suffering from pneumonia and healthy people. The model was developed with the <i>convolutional neural networks</i> method in line with the images downloaded from <a  href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia">Kaggle</a>. The web page was created to integrate the created model with the Flask. In addition, it is aimed to give information about the model and disease on the web page. Users will be able to evaluate themselves in line with their knowledge, show their own <i>X-ray</i> images and understand whether they are suffering from the disease. </p>
 
-<p>Don't you know how to run the flask? Please take a look at <a  href="https://code.visualstudio.com/docs/python/tutorial-flask"> VS Code Website</a>. You can see part 1 of the website in <a  href="https://github.com/doguilmak/X-Ray-Classification-Website-with-Flask">here</a>. Before running the <b>app.py</b>, please check the <b>PATH</b> variable in <b>app.py</b> and make sure that it is pointing right path.</p>
-
-</p>All details are in <b>cheast_cnn.ipynb</b> file.  Convolutional neural network model builded in that file.</p>
+<p>Don't you know how to run the flask? Please take a look at <a  href="https://code.visualstudio.com/docs/python/tutorial-flask"> VS Code Website</a>. You can see part 1 of the website in <a  href="https://github.com/doguilmak/X-Ray-Classification-Website-with-Flask">here</a>. Before running the <b>app.py</b>, please check the <b>PATH</b> variable in <b>app.py</b> and make sure that it is pointing right path. All details are in <b>cheast_cnn.ipynb</b> file.  Convolutional neural network model builded in that file.</p>
 
 <br>
 
