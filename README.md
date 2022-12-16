@@ -53,7 +53,7 @@ For the analysis of chest <i>X-ray</i> images, all chest radiographs were initia
 
 <h4>License</h4>
 
-<p><b>CC BY 4.0</b>
+<p>CC BY 4.0
 
 The files associated with this dataset are licensed under a Creative Commons Attribution 4.0 International license.
 
